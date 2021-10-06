@@ -1,0 +1,34 @@
+a {
+    margin: 7px;
+}
+
+.flexbox-container {
+    width: 110px;
+    line-height: 0;
+    padding: 50px 0;
+    margin: 60px auto;
+    background-color: violet;
+    border-radius: 50%;
+  	color: white;
+    cursor: pointer;
+
+            /*  */
+            transition-property: color, background-color, transform;
+            /*  */
+            transition-duration: 2s;
+            /* How long until the transition starts*/
+            transition-delay: 2s;
+            /* How you want elements to transition- default ease */
+            transition-timing-function: ease-out;
+
+
+
+    }
+  
+h1 {text-align: center;}
+
+.Hover:hover {
+
+    color: purple;
+    background-color: turquoise;
+}
