@@ -19,15 +19,51 @@
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" types="text/css" href="style.css">
     <title> >How to Make the Best Pumkin Spice Latte</title>
 </head>
 
 <style>
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: rgb(10, 9, 9);}
+
     .btn {
-      width: 50px;
-      height: 50px;
+      width: 20px;
+      height: 20px;
       border-radius: 20%;
       border: none;
       background:black;
@@ -44,21 +80,18 @@
 
   </style>
 
-<ul class="nav">
-    <li class="nav-item">
-        <a class="nav-link active" href="index.html">Home</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="animations.html">Annimations</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="index.html">How To</a>
-    </li>
-</ul>
+<div class="dropdown" style="float:left;">
+    <button class="dropbtn">Find More!</button>
+    <div class="dropdown-content" style="left:0;">
+      <a href="https://www.onceuponachef.com/recipes/spiced-pumpkin-bread.html">How to make Pumpkin Bread</a>
+      <a href="https://www.pillsbury.com/recipes/easiest-ever-pumpkin-pie/5793eb83-dca1-45e0-96e1-7f73af9e282f">How to make Pumpkin Pie</a>
+      <a href="https://www.allrecipes.com/recipes/1090/fruits-and-vegetables/vegetables/squash/winter-squash/pumpkin/">More Pumkin Spice Recipes</a>
+    </div>
+  </div>
 <br>
 <h1 class="text-center, color"><u>How to Make the Best Pumkin Spice Latte </u></h1>
-<button onclick="https://www.tasteofhome.com/collection/pumpkin-spice-products/" class="btn">
-   Pumkin Spice finds!</button>
+<br>
+
 <body>
 
     <div class="container-fluid">
@@ -133,8 +166,7 @@
      
     </div>
 
-
-
 </body>
-
+<button onclick="" class="btn">
+    Pumkin Spice finds!</button>
 </html>
