@@ -5,10 +5,9 @@
     justify-content: space-around;
     align-content: space-around;
     
-    a {
-        margin: 7px;
-    }
-
+a {
+   margin: 7px;
+}
 .container {
    background-color: blueviolet;
 }

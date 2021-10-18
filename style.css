@@ -1,34 +1,98 @@
 a {
     margin: 7px;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+body{
+    background:#E76A00;
+    }
+    animation: color-me-in 5s; /* other keywords like "infinite alternate" can be useful here */
+  }
+  
+  @keyframes color-me-in {
+    /* You could think of as "step 1" */
+    0% {
+      background: orange;
+    }
+    /* You could think of as "step 2" */
+    100% {
+      background: black;
+    }
+  }
+    
+    #about{
+       background: #24242a;
+       padding: 60px 0;
+      text-align: center;
+      }
 
-.flexbox-container {
-    width: 110px;
-    line-height: 0;
-    padding: 50px 0;
-    margin: 60px auto;
-    background-color: violet;
-    border-radius: 50%;
-  	color: white;
-    cursor: pointer;
+h6 {
+        font-size: large;
+        font-weight: bold;
+        font-family: monospace;
+    }
+nav { align-content: center;
+}
 
-            /*  */
-            transition-property: color, background-color, transform;
-            /*  */
-            transition-duration: 2s;
-            /* How long until the transition starts*/
-            transition-delay: 2s;
-            /* How you want elements to transition- default ease */
-            transition-timing-function: ease-out;
-
-
-
+h1 {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count:unset;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
     }
   
-h1 {text-align: center;}
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
-.Hover:hover {
+  #cf {
+    align-content: center;
+    position:relative;
+    margin:0 auto;
+  }
+  
+  #cf img {
+    position:absolute;
+    align-content: center;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  #cf img.top:hover {
+    align-content: center;
+    opacity:0;
+  }
+  
+  h3 {
+    text-align: left;
+  }
+  
+  div.color {
+    margin: 121px 149px;
+    width: 483px;
+    height: 298px;
+    background: #676470;
+    color: #fff;
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 3.4em;
+    text-align: center;
+    line-height: 298px;
+    transition: all 0.3s ease;
+}
 
-    color: purple;
-    background-color: turquoise;
+div.color:hover {
+    background: #53a7ea;
 }
